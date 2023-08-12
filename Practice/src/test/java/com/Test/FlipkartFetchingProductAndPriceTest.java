@@ -32,7 +32,7 @@ public void main() {
 	/**
 	 * close the login Windowpopup
 	 */
-	driver.findElement(By.xpath("//button[text()='✕']")).click();
+	//driver.findElement(By.xpath("//button[text()='✕']")).click();
 	/**
 	 * search for iphone
 	 */

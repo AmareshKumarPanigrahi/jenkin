@@ -38,7 +38,7 @@ public  void main() {
 	
 	 driver.findElement(By.id("twotabsearchtextbox")).sendKeys("phones",Keys.ENTER);
 	
-	driver.findElement(By.xpath("//span[text()='Oppo']")).click();
+	driver.findElement(By.xpath("//span[text()='Oppo']"));
 	
 }
 }
