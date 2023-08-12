@@ -16,27 +16,23 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
-    public static WebDriver driver =null;
+    public static WebDriver driver;
 	@BeforeTest
 	public void dbConnection() {
 		System.out.println("connected rto db");
 	}
 	
-	@Parameters("browser")
 	@BeforeClass
-	public void launchBrowser(String browser) {
-		System.setProperty("webdriver.chrome.driver","C:\\selenium\\chromedriver-win64" );
-		WebDriver driver=null;
+	public void launchBrowser() {
+		String browser="chrome";
+	
 		if(browser.equals("edge")) {
-		EdgeOptions opt =new EdgeOptions();
-		opt.addArguments("--remote-allow-origins=*");
-		 driver=new EdgeDriver(opt);
+		
+		 driver=new EdgeDriver();
 		}
 		else if(browser.equals("chrome")) {
-			ChromeOptions opt=new ChromeOptions();
-			opt.setBinary("C:\\selenium\\chrome-win64\\chrome.exe");
-			//opt.addArguments("--remote-allow-origins=*");
-			 driver =new ChromeDriver(opt);
+			
+			 driver =new ChromeDriver();
 			
 		}
 		driver.manage().window().maximize();

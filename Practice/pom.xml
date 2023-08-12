@@ -54,16 +54,23 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.22</version> <!-- Use the latest version -->
+    <scope>provided</scope>
+</dependency>
   </dependencies>
   <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.10.0</version> <!-- Use a compatible version -->
+            <version>3.10.1</version> <!-- Use a compatible version -->
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
+                <encoding>UTF-8</encoding>
                 <!-- other configuration options -->
             </configuration>
         </plugin>
