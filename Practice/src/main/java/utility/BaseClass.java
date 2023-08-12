@@ -24,7 +24,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void launchBrowser() {
-		String browser="chrome";
+		String browser=System.getProperty("browser");
 	
 		if(browser.equals("edge")) {
 		
