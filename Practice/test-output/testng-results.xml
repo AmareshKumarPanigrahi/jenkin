@@ -1,113 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T23:34:39 IST" name="Default suite" finished-at="2023-08-12T23:34:40 IST" duration-ms="104">
+  <suite started-at="2023-08-14T22:37:16 IST" name="Default suite" finished-at="2023-08-14T22:37:38 IST" duration-ms="21766">
     <groups>
     </groups>
-    <test started-at="2023-08-12T23:34:39 IST" name="Default test" finished-at="2023-08-12T23:34:40 IST" duration-ms="104">
-      <class name="com.Test.FlipkartFetchingProductAndPriceTest">
-        <test-method is-config="true" signature="dbConnection()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:39 IST" name="dbConnection" finished-at="2023-08-12T23:34:39 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-08-14T22:37:16 IST" name="Default test" finished-at="2023-08-14T22:37:38 IST" duration-ms="21766">
+      <class name="com.Test.MakemyTripCalendarTest">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:16 IST" name="dbConnection" finished-at="2023-08-14T22:37:16 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:39 IST" name="launchBrowser" finished-at="2023-08-12T23:34:39 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equals(Object)" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browser" is null
-at utility.BaseClass.launchBrowser(BaseClass.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:16 IST" name="launchBrowser" finished-at="2023-08-14T22:37:22 IST" duration-ms="5920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="actionStarted()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:40 IST" name="actionStarted" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691863480026" status="SKIP">
+        <test-method is-config="true" signature="actionStarted()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:22 IST" name="actionStarted" finished-at="2023-08-14T22:37:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actionStarted -->
-        <test-method signature="main()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:40 IST" name="main" finished-at="2023-08-12T23:34:40 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equals(Object)" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browser" is null
-at utility.BaseClass.launchBrowser(BaseClass.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="calendarTest()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:22 IST" name="calendarTest" finished-at="2023-08-14T22:37:38 IST" duration-ms="15564" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method is-config="true" signature="afterAction()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:40 IST" name="afterAction" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691863480035" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterAction -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:40 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691863480039" status="SKIP">
+        </test-method> <!-- calendarTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:38 IST" name="closeBrowser" finished-at="2023-08-14T22:37:38 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closedBconection()[pri:0, instance:com.Test.FlipkartFetchingProductAndPriceTest@7e07db1f]" started-at="2023-08-12T23:34:40 IST" name="closedBconection" finished-at="2023-08-12T23:34:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterAction()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:38 IST" name="afterAction" finished-at="2023-08-14T22:37:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAction -->
+        <test-method is-config="true" signature="closedBconection()[pri:0, instance:com.Test.MakemyTripCalendarTest@7e07db1f]" started-at="2023-08-14T22:37:38 IST" name="closedBconection" finished-at="2023-08-14T22:37:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBconection -->
-      </class> <!-- com.Test.FlipkartFetchingProductAndPriceTest -->
+      </class> <!-- com.Test.MakemyTripCalendarTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

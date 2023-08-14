@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.FlipkartFetchingProductAndPriceTest">
+      <class name="com.Test.MakemyTripCalendarTest">
         <methods>
+          <include name="calendarTest"/>
           <include name="actionStarted"/>
           <include name="closeBrowser"/>
-          <include name="main"/>
           <include name="afterAction"/>
           <include name="launchBrowser"/>
           <include name="dbConnection"/>
           <include name="closedBconection"/>
         </methods>
-      </class> <!-- com.Test.FlipkartFetchingProductAndPriceTest -->
+      </class> <!-- com.Test.MakemyTripCalendarTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

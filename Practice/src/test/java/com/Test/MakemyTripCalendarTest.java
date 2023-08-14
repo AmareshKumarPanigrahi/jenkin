@@ -53,6 +53,7 @@ public class MakemyTripCalendarTest extends BaseClass{
 			
 					driver.findElement(By.xpath("//p[@data-cy='returnDefaultText']")).click();
 			driver.findElement(By.xpath("//div[@class='DayPicker-Month'][2]//p[.='"+dy+"']")).click();
+			System.out.println("passed");
 
 		
    
